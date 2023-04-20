@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/registro-css.css">
+</head>
+<body>
+
+
+
+    <main>
+        <section class="registerForm">
+            <div class="header">
+            <h1 style="margin-bottom: 0; margin-top: 0" class="secular"> Registro </h1>
+            <span> ___________________________________________________</span>
+        </div>
+            <h3 class="noto"> Esto sólo tomará un minuto. </h3>
+    
+            <form>
+                <label for="email">
+                    <span> <p> Ingresa tu correo electrónico </p> </span>
+                    <input type="email" id="email" required>
+                </label>
+                <br>
+                <br>
+                <label for="username">
+                    <span> <p> Ingresa un nombre de usuario </p> </span>
+                    <input type="text" id="username" required>
+                </label>
+                <br>
+                <br>
+                <label for="password">
+                    <span> <p> Ingresa una contraseña segura </p> </span>
+             <!-- No sé como hacer para verificar que ambos campos sean iguales -->
+                    <input type="password" id="password" required>
+                </label>
+                <br>
+                <br>
+                <label for="re-password">
+                    <span> <p> Vuelve a escribir tu contraseña </p> </span>
+                    <input type="password" id="re-password" required>
+                </label>
+                <br>
+                <br>
+            </form>
+            <!-- Botón para enviar -->
+            <input type="submit" value="Enviar" style="width: 15%; margin-top: 10px; margin: 10px auto; display: block;" class="botonSubmit">
+        </section>
+    </main>
+</body>
+</html>

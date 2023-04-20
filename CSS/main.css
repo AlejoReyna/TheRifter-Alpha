@@ -1,0 +1,20 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar li {
+    display: inline-block;
+    
+}
+
+.smallBox {
+    border: 1px solid black;
+    width: 180px;
+}
+
+.container {
+    border: 1px solid black;
+    width: 1000px;
+    height: 500px;
+}

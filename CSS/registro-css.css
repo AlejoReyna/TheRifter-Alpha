@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+    background-image: url(/Imagenes/esportsar.avif);
+} 
+
+.registerForm{
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    border: 1px solid black;
+    padding: 30px;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.registerForm form {
+    text-align: center;
+}
+.registerForm input {
+    width: 60%
+}
+
+.botonSubmit {
+    color: white;
+    background-color: rgba(9, 155, 218, 0.905);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.header {
+    font-size: 30px;
+}
+
+.secular {
+    font-family: 'Secular One', sans-serif;
+}
+
+.inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+
+.noto {
+    font-family: 'Noto Serif', serif;
+}

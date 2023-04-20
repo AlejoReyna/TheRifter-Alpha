@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.content #loginPic {
+    background-image: url('/Imagenes/blackfaker.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+
+.rightSide { 
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.imglogo{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.formularioLogin {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    border: 1px solid black;
+    padding: 30px;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formularioLogin input {
+    width: 100%;
+}
+
+.formularioLogin #notRegisteredMessage {
+    text-align: center;
+    font-size: 15px;
+}
+.rightSide ul li{
+    list-style-type: none;
+}
+
+.rightSide h1 {
+    font-size: 50px;
+}
+
+.rightSide h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.rightSide h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+/** Fuentes **/
+.secular {
+    font-family: 'Secular One', sans-serif;
+}
+
+.inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+
+.noto {
+    font-family: 'Noto Serif', serif;
+}
+
+
