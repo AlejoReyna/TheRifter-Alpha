@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/** CSS referente a la barra de navegación **/ 
+body {
+    background-color: rgb(255, 255, 255);
+}
+.navbar {
+    display: flex;
+    background-color: black;
+    height: 60px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li #login {
+    margin-left: 520px;
+    float: right;
+}
+
+#navlogo {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50px;
+    height:35px;
+}
+
+#textlogo {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 5px;
+}
+
+.option {
+    float: right;
+}
+
+/* Fin de la barra de navegación */
+
+/** CSS referente a las noticias destacadas  **/
+
+.mainNews {
+    display: flex;
+    margin-left: 10px;
+}
+
+.mainNews li { /** Esto afecta al texto displayed en las imagenes */
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin-top: 300px;
+}
+
+.mainNews #container1 {
+    width: 500px;
+    height: 500px;
+    background-image: url(/imagenes/niko.avif);
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.mainNews #container2 {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    background-image: url(/imagenes/niko.avif);
+    background-size: cover;
+}
+
+.textContent {
+    margin-top: 250px;
+    color: white;
+}
+
+/* Fin de noticias destacadas */
+
+
+
+/* CSS de la lista de últimas noticias */
+
+.latestNews {
+    margin-top: 35px;
+    margin-left: 115px;
+}
+
+.latestNews li {
+    border: 1px solid black;
+    list-style-type: none;
+    width: 600px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Fin de la lista de últimas noticias */
+
+.latestItems {
+    margin: 100px;
+}
+
+.latestPosts {
+    
+}
+
+.latestPosts li {
+    border: 1px solid black;
+    list-style-type: none;
+    width: 55%;
+    margin-left: 200px;
+    
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    height: 100px;
+}
+
+.container .latestNews .latestPosts {
+    display: inline-block;
+}
+
+table {
+    border: 1px solid black;
+}

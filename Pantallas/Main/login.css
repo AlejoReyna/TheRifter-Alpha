@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.contenedor #espacio1 {
+    width: 40%;
+    height: 700px;
+    background-color: black;
+
+}
+
+.player { /* Clase perteneciente a las imagenes ubicadas en el espacio1 */
+    display: block;
+    width: 100%;
+}
+
+.mainMessage p {
+    font-size: 40px;
+}
+
+.mainMessage .carousel-control-prev {
+    color: black;
+}
+
+#mainpic {
+    width: 100%;
+    height: 500px;
+}
+
+.contenedor #espacio2 {
+    background-image: url(/imagenes/colorarena.JPG);
+    background-size: cover;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.contenedor #espacio2 .mainMessage {
+    color: white;
+    margin-top: 100px;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
+}
+
+.logo h1 {
+    font-family: 'Playfair Display', serif
+}
+
+.logo h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+.formularioLogin {
+    font-size: 20px;
+    position: absolute;
+    border: 1px solid black;
+    padding: 30px;
+    width: 40%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%
+}
+
+.formularioLogin p {
+    font-family: 'Playfair Display', serif
+}
+
+.formularioLogin input {
+    width: 100%;
+}
+
+.formularioLogin #notRegisteredMessage {
+    text-align: center;
+    font-size: 15px;
+}
